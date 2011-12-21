@@ -1,5 +1,0 @@
-c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\bin\Debug\LotteryLibrary.dll
-c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\bin\Debug\LotteryLibrary.pdb
-c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\obj\Debug\ResolveAssemblyReference.cache
-c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\obj\Debug\LotteryLibrary.dll
-c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\obj\Debug\LotteryLibrary.pdb
