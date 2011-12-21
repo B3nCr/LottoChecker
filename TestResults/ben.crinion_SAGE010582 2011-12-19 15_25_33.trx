@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cee729d8-afbd-4439-9355-3cc7f05e55d1" name="ben.crinion@SAGE010582 2011-12-19 15:25:33" runUser="SAGEUKIE\ben.crinion" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef149f74-4c5a-4e1f-87b8-a5e79c997f90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ben.crinion_SAGE010582 2011-12-19 15_25_33">
+      <DeploymentItem filename="c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\bin\Debug\LotteryLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-19T15:25:33.9420935+00:00" queuing="2011-12-19T15:25:34.1420335+00:00" start="2011-12-19T15:25:34.1730242+00:00" finish="2011-12-19T15:25:34.6828712+00:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoadAllDrawsTest" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="41010dad-1f69-61f2-4f81-1da59e142c9b">
+      <Execution id="d3c239b3-6d6d-4e8c-a627-2af9a5d3244c" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadAllDrawsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="41010dad-1f69-61f2-4f81-1da59e142c9b" executionId="d3c239b3-6d6d-4e8c-a627-2af9a5d3244c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d3c239b3-6d6d-4e8c-a627-2af9a5d3244c" testId="41010dad-1f69-61f2-4f81-1da59e142c9b" testName="LoadAllDrawsTest" computerName="SAGE010582" duration="00:00:00.0356000" startTime="2011-12-19T15:25:34.1820215+00:00" endTime="2011-12-19T15:25:34.6048946+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3c239b3-6d6d-4e8c-a627-2af9a5d3244c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method LottoLibrary.Test.ILottoCollectionTest.LoadAllDrawsTest threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int16.Parse(String s)
+   at LotteryLibrary.HistorcalDraws.LoadAllDraws(String fileName) in c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\HistorcalDraws.cs:line 41
+   at LottoLibrary.Test.ILottoCollectionTest.LoadAllDrawsTest() in c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LottoLibrary.Test\ILottoCollectionTest.cs:line 80
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

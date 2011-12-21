@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b99b83e4-fcb1-4979-b6e7-967fe1740e3f" name="ben.crinion@SAGE010582 2011-12-19 15:58:33" runUser="SAGEUKIE\ben.crinion" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef149f74-4c5a-4e1f-87b8-a5e79c997f90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ben.crinion_SAGE010582 2011-12-19 15_58_33">
+      <DeploymentItem filename="c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\bin\Debug\LotteryLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-19T15:58:33.0782717+00:00" queuing="2011-12-19T15:58:33.1472717+00:00" start="2011-12-19T15:58:33.1532717+00:00" finish="2011-12-19T15:58:33.4262717+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NumbersTooLow" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="202e97fb-f7c2-a2f3-69e9-33ccb936ff8d">
+      <Execution id="e5a6caee-344b-4fcb-a4d2-0d9923013b50" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumbersTooLow" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="202e97fb-f7c2-a2f3-69e9-33ccb936ff8d" executionId="e5a6caee-344b-4fcb-a4d2-0d9923013b50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e5a6caee-344b-4fcb-a4d2-0d9923013b50" testId="202e97fb-f7c2-a2f3-69e9-33ccb936ff8d" testName="NumbersTooLow" computerName="SAGE010582" duration="00:00:00.0357690" startTime="2011-12-19T15:58:33.1552717+00:00" endTime="2011-12-19T15:58:33.4152717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5a6caee-344b-4fcb-a4d2-0d9923013b50">
+    </UnitTestResult>
+  </Results>
+</TestRun>

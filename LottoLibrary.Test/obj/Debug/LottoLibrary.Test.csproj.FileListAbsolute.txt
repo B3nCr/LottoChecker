@@ -1,0 +1,7 @@
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LottoLibrary.Test\bin\Debug\LottoLibrary.Test.dll
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LottoLibrary.Test\bin\Debug\LottoLibrary.Test.pdb
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LottoLibrary.Test\bin\Debug\LotteryLibrary.dll
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LottoLibrary.Test\bin\Debug\LotteryLibrary.pdb
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LottoLibrary.Test\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LottoLibrary.Test\obj\Debug\LottoLibrary.Test.dll
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LottoLibrary.Test\obj\Debug\LottoLibrary.Test.pdb

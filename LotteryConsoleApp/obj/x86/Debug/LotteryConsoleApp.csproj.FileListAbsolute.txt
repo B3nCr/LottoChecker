@@ -1,0 +1,6 @@
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryConsoleApp\bin\Debug\LotteryConsoleApp.exe
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryConsoleApp\bin\Debug\LotteryConsoleApp.pdb
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryConsoleApp\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryConsoleApp\obj\x86\Debug\LotteryConsoleApp.exe
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryConsoleApp\obj\x86\Debug\LotteryConsoleApp.pdb
+c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryConsoleApp\bin\Debug\LotteryConsoleApp.exe.config

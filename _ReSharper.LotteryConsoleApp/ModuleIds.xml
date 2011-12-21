@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="8F10F679-E93B-4451-B184-1E53ECADDAD2" ModuleId="LotteryConsoleApp" />
+  <Module PersistentId="A4CC9562-C346-4440-A5BD-F12CE481CEA6" ModuleId="LotteryLibrary" />
+  <Module PersistentId="1C19D58D-D844-4A1F-9F18-3A32B57E1EE4" ModuleId="LottoLibrary.Test" />
+</Modules>

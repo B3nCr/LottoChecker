@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a5b99577-ddc2-49fc-b0c4-ecae5ac502f4" name="ben.crinion@SAGE010582 2011-12-19 16:07:07" runUser="SAGEUKIE\ben.crinion" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ef149f74-4c5a-4e1f-87b8-a5e79c997f90">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ben.crinion_SAGE010582 2011-12-19 16_07_07">
+      <DeploymentItem filename="c:\users\ben.crinion\documents\visual studio 2010\Projects\LotteryConsoleApp\LotteryLibrary\bin\Debug\LotteryLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-12-19T16:07:07.7772717+00:00" queuing="2011-12-19T16:07:07.8392717+00:00" start="2011-12-19T16:07:07.8452717+00:00" finish="2011-12-19T16:07:17.0152717+00:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="LoadAllDrawsTest" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="41010dad-1f69-61f2-4f81-1da59e142c9b">
+      <Execution id="9468a8ff-edfe-4dbb-b28e-6e9f7dd9bc24" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoadAllDrawsTest" />
+    </UnitTest>
+    <UnitTest name="NotInitialised" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="5a683157-0afc-bdff-b16c-8f6692afdee2">
+      <Execution id="93a7eb06-6e87-4f40-b3fe-ecb097750f39" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotInitialised" />
+    </UnitTest>
+    <UnitTest name="NotEnoughNumbers" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="0bf5c479-8892-ecb9-5dd3-85785d297e7b">
+      <Execution id="bb0914cb-d0be-481b-ba4d-aa3ce146b871" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotEnoughNumbers" />
+    </UnitTest>
+    <UnitTest name="NumbersTooLow" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="202e97fb-f7c2-a2f3-69e9-33ccb936ff8d">
+      <Execution id="672396e1-111f-459d-b05d-c5becc737689" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumbersTooLow" />
+    </UnitTest>
+    <UnitTest name="TooManyNumbers" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="058bc887-496a-f62c-2e6e-b08a3a4e48f7">
+      <Execution id="cdab3f95-d79c-4d79-8727-496101c497f0" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TooManyNumbers" />
+    </UnitTest>
+    <UnitTest name="LoosingNumbers" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="553ae75a-d97b-cc48-ce03-76d4cfbaf8df">
+      <Execution id="80096152-66e5-4932-bb7a-926012b6519e" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LoosingNumbers" />
+    </UnitTest>
+    <UnitTest name="WinningNumbers" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="b23c5a48-50df-e42d-b8f1-dd4c97cd1f14">
+      <Execution id="3762b594-ea89-48a8-88ee-fccf67d32637" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WinningNumbers" />
+    </UnitTest>
+    <UnitTest name="NotUniqueNumbers" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="59af4567-ed2f-c98d-3d92-a1658e2751e8">
+      <Execution id="c4144f83-bc6c-4fa4-9f99-7891bfbcc938" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NotUniqueNumbers" />
+    </UnitTest>
+    <UnitTest name="NumbersTooHigh" storage="c:\users\ben.crinion\documents\visual studio 2010\projects\lotteryconsoleapp\lottolibrary.test\bin\debug\lottolibrary.test.dll" id="dde654c9-9fbc-bb1f-941d-3c1d7204e476">
+      <Execution id="a4c1f947-1d73-4b0f-9584-db0715c7ae26" />
+      <TestMethod codeBase="c:/users/ben.crinion/documents/visual studio 2010/Projects/LotteryConsoleApp/LottoLibrary.Test/bin/Debug/LottoLibrary.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LottoLibrary.Test.ILottoCollectionTest, LottoLibrary.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NumbersTooHigh" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="058bc887-496a-f62c-2e6e-b08a3a4e48f7" executionId="cdab3f95-d79c-4d79-8727-496101c497f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0bf5c479-8892-ecb9-5dd3-85785d297e7b" executionId="bb0914cb-d0be-481b-ba4d-aa3ce146b871" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="202e97fb-f7c2-a2f3-69e9-33ccb936ff8d" executionId="672396e1-111f-459d-b05d-c5becc737689" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41010dad-1f69-61f2-4f81-1da59e142c9b" executionId="9468a8ff-edfe-4dbb-b28e-6e9f7dd9bc24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="553ae75a-d97b-cc48-ce03-76d4cfbaf8df" executionId="80096152-66e5-4932-bb7a-926012b6519e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59af4567-ed2f-c98d-3d92-a1658e2751e8" executionId="c4144f83-bc6c-4fa4-9f99-7891bfbcc938" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a683157-0afc-bdff-b16c-8f6692afdee2" executionId="93a7eb06-6e87-4f40-b3fe-ecb097750f39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b23c5a48-50df-e42d-b8f1-dd4c97cd1f14" executionId="3762b594-ea89-48a8-88ee-fccf67d32637" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dde654c9-9fbc-bb1f-941d-3c1d7204e476" executionId="a4c1f947-1d73-4b0f-9584-db0715c7ae26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cdab3f95-d79c-4d79-8727-496101c497f0" testId="058bc887-496a-f62c-2e6e-b08a3a4e48f7" testName="TooManyNumbers" computerName="SAGE010582" duration="00:00:00.0144701" startTime="2011-12-19T16:07:07.8472717+00:00" endTime="2011-12-19T16:07:08.0882717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdab3f95-d79c-4d79-8727-496101c497f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb0914cb-d0be-481b-ba4d-aa3ce146b871" testId="0bf5c479-8892-ecb9-5dd3-85785d297e7b" testName="NotEnoughNumbers" computerName="SAGE010582" duration="00:00:00.0004199" startTime="2011-12-19T16:07:08.0892717+00:00" endTime="2011-12-19T16:07:08.0922717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb0914cb-d0be-481b-ba4d-aa3ce146b871">
+    </UnitTestResult>
+    <UnitTestResult executionId="672396e1-111f-459d-b05d-c5becc737689" testId="202e97fb-f7c2-a2f3-69e9-33ccb936ff8d" testName="NumbersTooLow" computerName="SAGE010582" duration="00:00:00.0005618" startTime="2011-12-19T16:07:08.0932717+00:00" endTime="2011-12-19T16:07:08.0962717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="672396e1-111f-459d-b05d-c5becc737689">
+    </UnitTestResult>
+    <UnitTestResult executionId="9468a8ff-edfe-4dbb-b28e-6e9f7dd9bc24" testId="41010dad-1f69-61f2-4f81-1da59e142c9b" testName="LoadAllDrawsTest" computerName="SAGE010582" duration="00:00:02.8943982" startTime="2011-12-19T16:07:08.0972717+00:00" endTime="2011-12-19T16:07:10.9942717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9468a8ff-edfe-4dbb-b28e-6e9f7dd9bc24">
+    </UnitTestResult>
+    <UnitTestResult executionId="80096152-66e5-4932-bb7a-926012b6519e" testId="553ae75a-d97b-cc48-ce03-76d4cfbaf8df" testName="LoosingNumbers" computerName="SAGE010582" duration="00:00:02.8916577" startTime="2011-12-19T16:07:10.9952717+00:00" endTime="2011-12-19T16:07:13.8892717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80096152-66e5-4932-bb7a-926012b6519e">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4144f83-bc6c-4fa4-9f99-7891bfbcc938" testId="59af4567-ed2f-c98d-3d92-a1658e2751e8" testName="NotUniqueNumbers" computerName="SAGE010582" duration="00:00:00.0004607" startTime="2011-12-19T16:07:13.8912717+00:00" endTime="2011-12-19T16:07:13.8942717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4144f83-bc6c-4fa4-9f99-7891bfbcc938">
+    </UnitTestResult>
+    <UnitTestResult executionId="93a7eb06-6e87-4f40-b3fe-ecb097750f39" testId="5a683157-0afc-bdff-b16c-8f6692afdee2" testName="NotInitialised" computerName="SAGE010582" duration="00:00:00.0004304" startTime="2011-12-19T16:07:13.8952717+00:00" endTime="2011-12-19T16:07:13.8982717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93a7eb06-6e87-4f40-b3fe-ecb097750f39">
+    </UnitTestResult>
+    <UnitTestResult executionId="3762b594-ea89-48a8-88ee-fccf67d32637" testId="b23c5a48-50df-e42d-b8f1-dd4c97cd1f14" testName="WinningNumbers" computerName="SAGE010582" duration="00:00:02.9052944" startTime="2011-12-19T16:07:13.8992717+00:00" endTime="2011-12-19T16:07:16.8072717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3762b594-ea89-48a8-88ee-fccf67d32637">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4c1f947-1d73-4b0f-9584-db0715c7ae26" testId="dde654c9-9fbc-bb1f-941d-3c1d7204e476" testName="NumbersTooHigh" computerName="SAGE010582" duration="00:00:00.0006382" startTime="2011-12-19T16:07:16.8082717+00:00" endTime="2011-12-19T16:07:16.8122717+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4c1f947-1d73-4b0f-9584-db0715c7ae26">
+    </UnitTestResult>
+  </Results>
+</TestRun>
